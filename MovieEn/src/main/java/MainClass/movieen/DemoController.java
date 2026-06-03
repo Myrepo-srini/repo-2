@@ -12,11 +12,7 @@ import java.util.List;
 public class DemoController {
 
 
-<<<<<<< HEAD
-    public List<String>  list= List.of("kabadi","football","circket","boxing" ,"Divya");
-=======
-    public List<String>  list= List.of("kabadi","football","circket","boxing");
->>>>>>> b57e9f79ae9599c8207bd669e592c524a9b7ce65
+    public List<String>  list= List.of("kabadi","football","circket","boxing" ,"srinivas");
 
     @GetMapping("/gethabits")
     public List<String> habits(){
